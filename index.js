@@ -15,7 +15,8 @@ const authenticateAPIKey = (req, res, next) => {
 // Example endpoint
 app.get('/api/data', authenticateAPIKey, (req, res) => {
     res.json({ Pbuddy: 'พี่เนเน่',
-        message: 'ยินดีด้วยที่หาพี่บัดได้ เก่งมากๆเลย ขอต้อนรับสู่สายบัดของเราน้า!!'
+        ig: '32_nene',
+        message: 'ยินดีด้วยที่หาพี่บัดได้ เก่งมากๆเลย ขอต้อนรับสู่สายบัดของเราน้า ไว้เจอกันวันรับน้องนะคับ!!'
      });
 });
  
